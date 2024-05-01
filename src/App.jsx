@@ -1,11 +1,11 @@
 import Alert from "./Alert";
-import "./App.css";
+import { Voucher } from "./Voucher";
 
 function App() {
   return (
     <>
-      <div className="m-0 p-0 box-border max-w-xs bg-blue-400">
-        Hola mundo!
+      <div className="m-0 p-0 box-border">
+        <Voucher />
         <Alert />
       </div>
     </>

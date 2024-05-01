@@ -21,7 +21,7 @@ export default function Alert() {
         </Transition.Child>
 
         <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
-          <div className="flex min-h-full justify-center text-center sm:items-center sm:p-0">
+          <div className="flex w-full justify-center text-center sm:items-center sm:p-0">
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -31,7 +31,7 @@ export default function Alert() {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-40 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+              <Dialog.Panel className="relative transform overflow-hidden h-screen rounded-lg bg-white px-4 pb-4 pt-40 text-left shadow-xl transition-all sm:w-full sm:p-6">
                 <div>
                   <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                     <CakeIcon
@@ -48,9 +48,9 @@ export default function Alert() {
                     </Dialog.Title>
                     <div className="mt-12">
                       <p className="text-lg text-gray-500">
-                        Porque sos la mejor mamá del mundo y la mujer más
-                        maravillosa del universo, queremos compartir con vos una
-                        tarde especial.
+                        Porque sos la mejor mamá del mundo que Ferminchi podría
+                        tener, y la mujer más maravillosa del universo, queremos
+                        compartir con vos una tarde especial.
                       </p>
                     </div>
                   </div>
